@@ -34,8 +34,8 @@ For complete functionality, such as executing `prepdocs.sh` to handle file uploa
 1. **Clone the repository**
 
     ```bash
-    git clone https://github.com/your-repository-url.git
-    cd your-repository-name
+    git clone https://github.com/charlie-hssrr/az-search-file-upload.git
+    cd az-search-file-upload
     ```
 
 2. **Configure environment variables**
@@ -84,9 +84,3 @@ For complete functionality, such as executing `prepdocs.sh` to handle file uploa
 ### WebSocket Endpoint
 
 - **/ws**: WebSocket endpoint for real-time notifications about job completions.
-
-## Development
-
-This project is structured for asynchronous operation and is built on modern Python async/await features. The core functionality is divided among several modules:
-- **core**: Contains helper classes for file uploads, script execution, Redis job processing, and WebSocket communication.
-- **routes**: Defines Quart blueprint routes for HTTP endpoints.
